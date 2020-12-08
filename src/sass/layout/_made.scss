@@ -58,6 +58,10 @@
   color: $grey;
 }
 
+.box-cow__img {
+  margin: 0 auto;
+}
+
 .box-cow__item {
   max-width: 220px;
   margin: 0 auto;
@@ -289,11 +293,6 @@
     line-height: 1.14;
 
     margin-bottom: 55px;
-  }
-
-  .made-container {
-    padding-left: 72px;
-    padding-right: 77px;
   }
 
   .box-cow__item {
