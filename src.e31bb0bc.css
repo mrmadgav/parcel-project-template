@@ -1322,6 +1322,7 @@ img {
   line-height: 1.17;
   text-align: center;
   text-transform: uppercase;
+  display: block;
   color: #ffa5ba;
   margin-bottom: 15px;
 }
@@ -2048,6 +2049,9 @@ img {
   }
 }
 
+.button-franchise {
+  background-color: #fff;
+}
 .button-franchise a {
   margin-right: 13px;
 }
