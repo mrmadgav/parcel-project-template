@@ -40,6 +40,11 @@
           background-color: #fea5bb;
           border-radius: 50%;
 
+          &:hover,
+          &:focus{
+            background-color: #D41443;
+          }
+
           .social-logo {
             display: block;
             width: 60%;
@@ -191,7 +196,7 @@
           margin-top: 0px;
           margin-bottom: 0;
           margin-right: auto;
-          margin-left: 114px;
+          margin-left: 0;
 
           min-width: 472px;
           font-size: 30px;
@@ -200,10 +205,11 @@
         }
         .thumb-social {
           margin: 0;
+          margin-left:auto;
 
           .social {
             margin-bottom: 50px;
-            margin-right: 121px;
+            margin-right: 0;
             margin-left: auto;
 
             .social-item:not(:last-child) {
@@ -230,7 +236,8 @@
 
         .contact-akcent {
           margin-bottom: 0;
-          margin-right: 116px;
+          margin-right: 0;
+          margin-left: auto;
           min-width: 319px;
 
           font-size: 16px;
