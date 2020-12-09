@@ -273,7 +273,7 @@
     background-image: url(../images/made/desktop/bg-milk-desktop.png);
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: center;
+    background-position: 50% 40%;
 
     @media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
       screen and (min-resolution: 192dpi) and (min-width: 1200px),
@@ -296,7 +296,7 @@
   }
 
   .box-cow__item {
-    max-width: 463px;
+    max-width: 430px;
 
     &:first-child {
       margin-bottom: 35px;
