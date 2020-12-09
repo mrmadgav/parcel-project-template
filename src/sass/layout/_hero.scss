@@ -154,11 +154,13 @@
       font-size: 8px;
       line-height: 10px;
       margin-right: 8px;
+      padding: 7px 14px;
     }
     @media screen and (min-width: 1200px) {
       font-size: 14px;
       line-height: 18px;
       margin-right: 15px;
+      padding: 11px 23px;
     }
   }
   &-products:hover {
@@ -179,6 +181,12 @@
     border-radius: 20px;
     border: none;
     outline: none;
+    padding: 0 13px;
+    @media screen and (min-width: 1200px) {
+      font-size: 14px;
+      line-height: 18px;
+      padding: 11px 20px;
+    }
   }
   &-hwmade:hover {
     background-color: #ecebeb;
