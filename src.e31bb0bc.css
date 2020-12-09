@@ -2142,6 +2142,9 @@ img {
     background-color: #fea5bb;
     border-radius: 50%;
   }
+  .footer .thumb-social .social .social-link:hover, .footer .thumb-social .social .social-link:focus {
+    background-color: #D41443;
+  }
   .footer .thumb-social .social .social-link .social-logo {
     display: block;
     width: 60%;
@@ -2273,7 +2276,7 @@ img {
     margin-top: 0px;
     margin-bottom: 0;
     margin-right: auto;
-    margin-left: 114px;
+    margin-left: 0;
     min-width: 472px;
     font-size: 30px;
     line-height: 1.133;
@@ -2281,10 +2284,11 @@ img {
   }
   .footer .thumb-footer .thumb-social {
     margin: 0;
+    margin-left: auto;
   }
   .footer .thumb-footer .thumb-social .social {
     margin-bottom: 50px;
-    margin-right: 121px;
+    margin-right: 0;
     margin-left: auto;
   }
   .footer .thumb-footer .thumb-social .social .social-item:not(:last-child) {
@@ -2306,7 +2310,8 @@ img {
   }
   .footer .thumb-footer .contact-akcent {
     margin-bottom: 0;
-    margin-right: 116px;
+    margin-right: 0;
+    margin-left: auto;
     min-width: 319px;
     font-size: 16px;
     line-height: 1.857;
