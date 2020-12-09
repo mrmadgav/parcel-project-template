@@ -150,6 +150,7 @@
     border-radius: 20px;
     border: none;
     outline: none;
+    cursor: pointer;
     @media screen and (min-width: 320px) and (max-width: 1199px) {
       font-size: 8px;
       line-height: 10px;
@@ -182,6 +183,7 @@
     border: none;
     outline: none;
     padding: 0 13px;
+    cursor: pointer;
     @media screen and (min-width: 1200px) {
       font-size: 14px;
       line-height: 18px;
