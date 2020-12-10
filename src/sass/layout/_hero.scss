@@ -136,21 +136,10 @@
   @media screen and (min-width: 1200px) {
     margin-top: 25px;
   }
-
   &-products {
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: normal;
-    display: flex;
-    align-items: center;
-    text-align: center;
     color: $white;
-    background: #d41443;
-    padding: 8px 10px;
+    background: $main;
     border-radius: 20px;
-    border: none;
-    outline: none;
-    cursor: pointer;
     @media screen and (min-width: 320px) and (max-width: 1199px) {
       font-size: 8px;
       line-height: 10px;
@@ -168,22 +157,12 @@
     background-color: #c7133e;
   }
   &-hwmade {
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: normal;
     font-size: 8px;
     line-height: 10px;
-    display: flex;
-    align-items: center;
-    text-align: center;
     padding: 8px 10px;
     background-color: $white;
-    color: #d41443;
     border-radius: 20px;
-    border: none;
-    outline: none;
     padding: 0 13px;
-    cursor: pointer;
     @media screen and (min-width: 1200px) {
       font-size: 14px;
       line-height: 18px;
@@ -199,7 +178,7 @@
     display: none;
   }
   &__number-16 {
-    font-family: Titan One;
+    font-family: 'Titan One';
     font-style: normal;
     font-weight: normal;
     text-align: right;
@@ -218,7 +197,7 @@
     }
   }
   &__number-23 {
-    font-family: Titan One;
+    font-family: 'Titan One';
     font-style: normal;
     font-weight: normal;
     text-align: right;
