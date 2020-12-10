@@ -6,31 +6,40 @@
     .title {
       display: block;
       margin: 0;
-
       width: 232px;
+
       font-family: Titan One;
       font-size: 18px;
       line-height: 1.166;
-
+      letter-spacing: 0.04em;
       text-transform: uppercase;
       color: $pink-subtitle;
+
+      .title-akcent {
+        display: block;
+        margin-top: 17px;
+
+        max-width: 200px;
+        font-size: 34px;
+        line-height: 1.147;
+        color: $main;
+      }
     }
     .thumb-social {
       display: block;
       margin-top: 43px;
-      margin-left: px;
 
       .social {
         display: flex;
         justify-content: flex-end;
         align-items: center;
         margin-bottom: 46px;
-        margin-right: 0;
         margin-left: 147px;
 
         .social-item:not(:last-child) {
           margin-right: 28px;
         }
+
         .social-link {
           display: flex;
           justify-content: center;
@@ -41,8 +50,8 @@
           border-radius: 50%;
 
           &:hover,
-          &:focus{
-            background-color: #D41443;
+          &:focus {
+            background-color: #d41443;
           }
 
           .social-logo {
@@ -52,27 +61,9 @@
         }
       }
     }
-    .footer-hero {
-      display: block;
-      margin-top: 17px;
-      margin-bottom: 0;
-      margin-left: 0;
-      margin-right: 0;
-
-      max-width: 200px;
-      font-family: Titan One;
-      font-size: 34px;
-      line-height: 1.147;
-      letter-spacing: 0.04em;
-      text-transform: uppercase;
-      color: $main;
-    }
-
     .contact-akcent {
       display: block;
       margin-bottom: 43px;
-      margin-left: 0;
-      margin-right: 0;
 
       font-family: DM Sans;
       font-style: normal;
@@ -84,9 +75,6 @@
 
       .contact {
         color: $black;
-        font-weight: bold;
-        font-size: 12px;
-        line-height: 1.83;
         text-align: right;
       }
     }
@@ -112,62 +100,46 @@
 }
 @media screen and (min-width: 768px) {
   .footer {
-    padding-top: 165px;
     .thumb-footer {
       display: flex;
       justify-content: space-between;
 
       .title {
         margin-top: 7px;
-        margin-bottom: 0;
-        margin-left: 0;
-        margin-right: auto;
 
         min-width: 340px;
         font-size: 26px;
         line-height: 1.153;
-        letter-spacing: 0.04em;
+
+        .title-akcent {
+          margin-top: 16px;
+
+          max-width: 340px;
+          font-size: 48px;
+          line-height: 1.145;
+        }
       }
       .thumb-social {
-        margin-top: 0;
-        margin-right: 0;
+        margin: 0;
 
         .social {
           margin-bottom: 46px;
-          margin-right: 0;
-          margin-left: auto;
 
           .social-link {
             min-width: 34px;
             min-height: 34px;
           }
-
           .social-item:not(:last-child) {
             margin-right: 30px;
           }
         }
       }
-      .footer-hero {
-        margin-top: 16px;
-        margin-bottom: 0;
-        margin-left: 0;
-        margin-right: auto;
-
-        max-width: 340px;
-        max-height: 110px;
-        font-size: 48px;
-        line-height: 1.145;
-      }
       .contact-akcent {
-        margin: 0;
-
         min-width: 268px;
         font-size: 14px;
-        line-height: 1.857;
 
         .contact {
           font-size: 14px;
-          line-height: 1.857;
         }
       }
     }
@@ -193,59 +165,34 @@
         justify-content: space-between;
 
         .title {
-          margin-top: 0px;
-          margin-bottom: 0;
-          margin-right: auto;
-          margin-left: 0;
+          margin: 0px;
 
           min-width: 472px;
           font-size: 30px;
           line-height: 1.133;
-          letter-spacing: 0.04em;
-        }
-        .thumb-social {
-          margin: 0;
-          margin-left:auto;
 
-          .social {
-            margin-bottom: 50px;
-            margin-right: 0;
-            margin-left: auto;
+          .title-akcent {
+            margin-top: 15px;
 
-            .social-item:not(:last-child) {
-              margin-right: 24px;
-            }
-
-            .social-link {
-              min-width: 34px;
-              min-height: 34px;
-            }
+            max-width: 474px;
+            font-size: 58px;
+            line-height: 1.137;
           }
         }
-        .footer-hero {
-          margin-top: 15px;
-          margin-bottom: 0;
-          margin-right: auto;
-          margin-left: 0;
+        .social {
+          margin-bottom: 50px;
 
-          max-width: 474px;
-          max-height: 66px;
-          font-size: 58px;
-          line-height: 1.137;
+          .social-item:not(:last-child) {
+            margin-right: 24px;
+          }
         }
-
         .contact-akcent {
           margin-bottom: 0;
-          margin-right: 0;
-          margin-left: auto;
           min-width: 319px;
-
           font-size: 16px;
-          line-height: 1.857;
 
           .contact {
             font-size: 16px;
-            line-height: 1.857;
           }
         }
       }
@@ -256,7 +203,6 @@
           margin: 0 auto;
           padding-top: 9px;
           padding-bottom: 10px;
-
           min-width: 276px;
         }
       }
